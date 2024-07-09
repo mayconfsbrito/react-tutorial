@@ -1,10 +1,12 @@
+import profilePic from './assets/profile.png'
+import './Card.css'
 
 function Card(){
     return(
         <div className="card">
-            <img></img>
-            <h2>Bro Code</h2>
-            <p>I make Youtube videos and play video games</p>
+            <img className="card-image" src={profilePic} alt="profile picture"></img>
+            <h2 className="card-title">Bro Code</h2>
+            <p className="card-text">I make Youtube videos and play video games</p>
         </div>
     );
 }
